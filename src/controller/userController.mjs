@@ -1,5 +1,5 @@
 import { addUserModel,getAllUsersModel, putUsersModel} from '../model/userModel.mjs';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 async function addUser(req,res){
 

@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { loginModel, ChangeUserPasswordModel, verificationCodeModel,verifyCodeModel,newPasswordModel } from '../model/loginModel.mjs';
 import { main } from '../utils/email.mjs';
