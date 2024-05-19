@@ -52,7 +52,7 @@ async function getTracks(req, res) {
 
   
   try {
-    const response = await axios.get(`https://api.spotify.com/v1/search?q=${title}&type=track&limit=10`, {
+    const response = await axios.get(`https://api.spotify.com/v1/search?q=${title}&type=track&limit=18`, {
       headers: {
         Authorization: `Bearer ${accessToken}`,
       },
